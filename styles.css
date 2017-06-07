@@ -1,0 +1,28 @@
+td, th { 
+	padding:5px; 
+	border:1px solid #ccc;
+}
+table {
+	border-collapse: collapse;
+	margin-top: 15px;
+	width: 100%;
+}
+.choice {
+	display: none;
+}
+main {
+	text-align: center;
+	width: 320px;
+    margin: 50px auto;
+    text-align: left;
+}
+table th {
+	width: 50%;
+	background-color: lightblue;
+    font-weight: bold;
+}
+select {
+	padding: 5px;
+    border-radius: 5px;
+    width: 50%;
+}

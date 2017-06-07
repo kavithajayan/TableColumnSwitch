@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <title>Table transpose</title>
+</head>
+<body>
+<main>
+  <select id="sel">
+    <option value="one">Age</option>
+    <option value="two">Eye Color</option>
+    <option value="three">Weight (Kg)</option>
+    <option value="four">Location</option>
+  </select>
+
+  <table>
+    <tr>
+      <th>Name</th>
+      <th class="choice one">Age</th>
+      <th class="choice two">Eye Color</th>
+      <th class="choice three">Weight (Kg)</th>
+      <th class="choice four">Location</th>
+    </tr>
+
+    <tr>
+      <td>Richard</td>
+      <td class="choice one">46</td>
+      <td class="choice two">Blue</td>
+      <td class="choice three">60</td>
+      <td class="choice four">UK</td>
+    </tr>
+
+    <tr>
+      <td>Riyas</td>
+      <td class="choice one">31</td>
+      <td class="choice two">Black</td>
+      <td class="choice three">63</td>
+      <td class="choice four">India</td>
+    </tr>
+
+    <tr>
+      <td>Andy</td>
+      <td class="choice one">34</td>
+      <td class="choice two">Brown</td>
+      <td class="choice three">72</td>
+      <td class="choice four">USA</td>
+    </tr>
+
+    <tr>
+      <td>Vidya</td>
+      <td class="choice one">36</td>
+      <td class="choice two">Dark Brown</td>
+      <td class="choice three">68</td>
+      <td class="choice four">India</td>
+    </tr>
+  </table>
+</main>
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="my-script.js"></script>
+</body>
+</html>
