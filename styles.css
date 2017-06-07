@@ -1,28 +1,46 @@
+@media screen and (max-width: 767px) {
+	.choice {
+		display: none;
+	}
+	main {
+		text-align: center;
+		width: 300px;
+	    margin: 50px auto;
+	    text-align: left;
+	}
+	table th {
+		width: 45%;
+	    font-weight: bold;
+	}
+	select {
+		padding: 5px;
+	    border-radius: 5px;
+	    width: 50%;
+	}
+}
+
 td, th { 
 	padding:5px; 
 	border:1px solid #ccc;
+	
+}
+table th {
+	background-color: lightblue;
 }
 table {
 	border-collapse: collapse;
 	margin-top: 15px;
 	width: 100%;
 }
-.choice {
-	display: none;
-}
-main {
-	text-align: center;
-	width: 320px;
-    margin: 50px auto;
-    text-align: left;
-}
-table th {
-	width: 50%;
-	background-color: lightblue;
-    font-weight: bold;
-}
-select {
-	padding: 5px;
-    border-radius: 5px;
-    width: 50%;
+@media screen and (min-width: 768px) {
+	main {
+		width: 500px;
+		margin: 50px auto;
+	}
+	.choice {
+		display: inline-grid;
+	}
+	select {
+		display: none;
+	}
 }
