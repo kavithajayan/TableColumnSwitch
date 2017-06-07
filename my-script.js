@@ -5,7 +5,7 @@ $(document).ready(function (){
 	$('.one').show();
 	$('#sel').on('change', function () {
 	
-  	var val = $(this).val();
+  	var val = $(this).val(),
     target = '.' + val;
 	$('.choice').hide();
 	$(target).show();
