@@ -9,7 +9,6 @@
 	    text-align: left;
 	}
 	table th {
-		width: 45%;
 	    font-weight: bold;
 	}
 	select {
@@ -18,7 +17,6 @@
 	    width: 50%;
 	}
 }
-
 td, th { 
 	padding:5px; 
 	border:1px solid #ccc;
